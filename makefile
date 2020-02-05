@@ -12,3 +12,5 @@ UserInterface.o: UserInterface.cpp UserInterface.h ServerInterface.h
 
 ServerInterface.o: ServerInterface.cpp ServerInterface.h
 	g++ -c ServerInterface.cpp
+clean:
+	rm -rf *o project
