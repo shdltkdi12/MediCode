@@ -15,19 +15,19 @@ make
 When first used, the program needs to be populated with users by the admin.
 Affiliates must exist as users before you can call them in the request functions. 
 
-** New Users **
+## New Users ##
 The initial username and password is admin admin. From there, you can create users 
 of different types with whatever names and passwords you desire. Note that each
 type of user can execute different functions. No user type can execute all functions.
 
-** Appointments **
+## Appointments ##
 When creating an appointment it will ask for a date. Enter "4_22_2019".
 The system was designed to allow any date to be entered, but there must be a 
 template file for the day with the times listed. Each time is on a line, and 
 the next line is OPEN if the time is avaiable. A patient name will appear on
 the next line if the time is already taken.
 
-** Records **
+## Records ##
 When creating a generic record, enter TestRecord as the record type. Any
 template can be created and called. The format is to simply have each line
 be a new question for the record. 
